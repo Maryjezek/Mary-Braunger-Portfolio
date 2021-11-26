@@ -2,7 +2,8 @@
     --primary-color: #fc3838;
     --secondary-color: #121618;
     --tertiary-color: maroon ;
-  }
+    --golden: goldenrod;
+}
   
   /*this part of the code overrides the defult padding that comes with the browser (built in browser style
   --told every element to not have any magin or border unless we explicitly tell it to*/
@@ -81,6 +82,7 @@
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 400px;
+    background: var(--golden);
   }
 
 
@@ -99,7 +101,7 @@
 
 
   footer {
-    background: var(--primary-color);
+    background: var(--golden);
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -135,6 +137,7 @@
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    
   }
   
   .hero-cta {
@@ -157,8 +160,7 @@
   .hero-cta p {
     color: white;
     font-weight: bold;
-    
-  }
+   }
   
 
   aside {
@@ -170,7 +172,7 @@
 
   .projects {
     flex: 4;
-    background-color: #fff;
+    background-color: #708a5a; 
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -182,6 +184,12 @@
       background-color: rgb(145, 22, 22);
       color: black;
   }
+
+  .contact {
+    background-color: #708a5a;   
+  }
+
+
 
 
   /*Media queries*/
@@ -227,7 +235,7 @@
      width: 80%;
    }
    
-   .trainer {
+   .card {
      flex: 0 70%;
    }
    
@@ -279,7 +287,7 @@
      width: 100%;
    }
  
-   .trainer {
+   .card {
      flex: 0 100%;
    }
  
@@ -291,11 +299,9 @@
      flex: 0 100%;
    }
 
-   .contact-form {
-     order: 3;
    }
 
-}
+
   
     
   
