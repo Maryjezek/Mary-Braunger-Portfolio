@@ -85,6 +85,14 @@
     background: var(--golden);
   }
 
+  .runBuddySection {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 70%;
+    background: var(--golden);
+  }
 
   
   .card header {
@@ -95,11 +103,17 @@
     text-align: center;
   }
   
-  .card img {
+  .projectImg {
     width: 50%;
   }
 
-
+  .runBuddy {
+    width: 100%;
+  }
+.hello {
+  background-color: #daa52047;
+  
+}
   footer {
     background: var(--golden);
     width: 100%;
@@ -128,7 +142,9 @@
 
     /*hero style start*/
 .hero {
+    height: 500px;
     background-image: url("../images/me.JPG");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -237,6 +253,10 @@
    
    .card {
      flex: 0 70%;
+   }
+
+   .runBuddySection {
+    flex: 0 70%;
    }
    
 }
