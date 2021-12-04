@@ -355,7 +355,29 @@
 
    }
 
+   @media screen and (max-width: 375px) {
+    /* this will be applied on any screen between 768px and 575px */
+   
+       /*hero style start*/
+.hero {
+  height: 500px;
+  background-image: url("../images/me.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment:fixed;
+ /* background-position: 80%;*/
 
+  } 
+
+  header {
+    background-position: top;
+  }
+}
   
     
   
