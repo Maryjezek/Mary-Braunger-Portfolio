@@ -2,11 +2,11 @@
     --primary-color: #fc3838;
     --secondary-color: #121618;
     --tertiary-color: maroon ;
-    --golden: goldenrod;
+    --golden: rgba(12, 41, 19, 0.356);
 }
   
-  /*this part of the code overrides the defult padding that comes with the browser (built in browser style
-  --told every element to not have any magin or border unless we explicitly tell it to*/
+  /*this part of the code overrides the default padding that comes with the browser (built in browser style
+  --told every element to not have any margin or border unless we explicitly tell it to*/
   * {
     margin: 0;
     padding: 0;
@@ -83,6 +83,7 @@
     padding: 10px;
     flex: 0 0 400px;
     background: var(--golden);
+   
   }
 
   .runBuddySection {
@@ -104,8 +105,9 @@
   }
   
   .projectImg {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
   }
 
   .runBuddy {
@@ -181,14 +183,14 @@
 
   aside {
     flex: 1;
-    background-color: #708a5a;
+    background-color: #5a848a;
     padding: 80px;
     text-align: center;
   }
 
   .projects {
     flex: 4;
-    background-color: #708a5a; 
+    background-color: #5a848a; 
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -197,12 +199,12 @@
 
   #workIveDone {
       text-align: center;
-      background-color: rgb(145, 22, 22);
+      background-color: rgb(120, 130, 131);
       color: black;
   }
 
   .contact {
-    background-color: #708a5a;   
+    background-color: #5a848a;   
   }
 
 
