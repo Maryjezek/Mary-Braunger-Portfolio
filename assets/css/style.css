@@ -19,6 +19,27 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.me{
+  flex-wrap: wrap;
+  flex: 1 12%;
+  margin-right: 20px;
+  align-items: right;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+.me img{
+ width: 400px;
+ height: 400px;
+ border-color: #fc3838;
+ border-width: .5cm;
+ border-style: solid;
+
+
+
+}
+
 header {
   padding: 20px 35px;
   background-color: var(--tertiary-color);
@@ -140,7 +161,7 @@ footer a {
 
 /*hero style start*/
 .hero {
-  height: 450px;
+  height: 500px;
   background-image: url("../images/me.JPG");
   background-repeat: no-repeat;
   background-size: cover;
