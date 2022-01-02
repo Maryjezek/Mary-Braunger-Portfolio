@@ -192,11 +192,13 @@ footer a {
   font-size: 55px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
 }
 
 .hero-cta p {
   color: white;
   font-weight: bold;
+  text-align: left;
 }
 
 .flex-row{
