@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   display: flex;
   max-width: 350px;
-  height: 350px;
+  height: 200px;
   border-color: #fc3838;
   border-width: 0.1cm;
   border-style: solid;
@@ -109,17 +109,11 @@ header nav ul li a:hover {
   padding: 10px;
   flex: 0 0 400px;
   background: var(--golden);
+  margin: 20px;
 }
 
 .runBuddySection {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  padding: 10px;
-  flex: 100px 0 300px;
-  background: var(--golden);
-  width: 30%;
-  height: 100%;
+  flex: 1 0 300px;
 }
 
 .card header {
@@ -132,7 +126,7 @@ header nav ul li a:hover {
 
 .projectImg {
   width: 100%;
-  height: 100%;
+  max-height: 100%;
   padding: 10px;
 }
 
@@ -155,6 +149,8 @@ footer h2 {
   color: var(--secondary-color);
   font-size: 30px;
   margin: 0;
+  text-align: right;
+  width: 100%;
 }
 
 footer div {
@@ -168,7 +164,7 @@ footer a {
 
 /*hero style start*/
 .hero {
-  height: 400px;
+  min-height: 400px;
   background-image: url("../images/me.JPG");
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,7 +178,7 @@ footer a {
 }
 
 .hero-cta {
-  flex: 0 0 60%;
+  flex: 0 0 90%;
   width: 35%;
   text-align: right;
   margin: 3.5%;
@@ -203,11 +199,19 @@ footer a {
   font-weight: bold;
 }
 
+.flex-row{
+  text-align: center;
+}
+
 aside {
   flex: 1;
   background-color: rgb(240, 211, 241);
-  padding: 80px;
+  padding: 20px;
   text-align: center;
+}
+
+aside h2{
+  padding-bottom: 1em;
 }
 
 .projects {
@@ -289,7 +293,7 @@ aside {
 
   /*hero style start*/
   .hero {
-    height: 500px;
+    min-height: 500px;
     background-image: url("../images/me.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -330,12 +334,11 @@ aside {
  */
   .card {
     flex: 0 100%;
-    height: 200px;
+    min-height: 200px;
   }
 
   .runBuddySection {
     flex: 0 100%;
-    height: 400px;
   }
 }
 
@@ -378,7 +381,7 @@ aside {
 
   /*hero style start*/
   .hero {
-    height: 500px;
+    min-height: 500px;
     background-image: url("../images/me.JPG");
     background-repeat: no-repeat;
     background-size: cover;
